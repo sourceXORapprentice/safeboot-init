@@ -113,7 +113,7 @@ safeboot-init_prerequisites() {
 	apt install -y \
 	efitools gnu-efi opensc yubico-piv-tool \
 	libengine-pkcs11-openssl cryptsetup-bin cryptsetup \
-	pcsc-tools pcscd opensll 
+	pcsc-tools pcscd openssl
 }
 
 safeboot-init_source_compile() {
